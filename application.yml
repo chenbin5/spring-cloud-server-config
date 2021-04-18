@@ -1,14 +1,15 @@
 spring:
   profiles:
     active: dev
-    
+
+---   
 #dev环境
 spring:
   profiles: dev
   application: 
     name: springcloud-config-dev
     
-    
+---    
 #test环境
 spring:
   profiles: test
